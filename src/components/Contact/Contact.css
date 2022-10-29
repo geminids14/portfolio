@@ -4,7 +4,7 @@
 
 .contact_container,.contact_container_last {
   max-width: 500px;
-  min-width: 500px;
+  width: 95%;
   word-wrap: normal;
   padding: 2em;
   margin: 0 auto 1em;
