@@ -19,6 +19,32 @@ const about = {
   },
 }
 
+const works = [
+  {
+    role: 'Electronic Software Engineer',
+    time: 'June 2017-Present',
+    place: 'Mitsubishi Electric Automation (Thailand) Co.Ltd',
+    descriptions: [
+      'Design, implementation and maintaining C code for microcontroller',
+      'C# for Windows apps, Java&Kotlin for Android Apps.',
+      'Electrical wiring. Hardware testing.',
+      'Electronic and electrical circuit analysis.',
+    ],
+  },
+  {
+    role: 'Electrical Engineer Trainee',
+    time: 'June 2016 - July 2016',
+    place: 'MP-MEC Co, Ltd., Bangkok, Thailand',
+    descriptions: [
+      'Auto parking maintenance',
+      'Electrical wiring. Hardware testing.',
+      'Electronic and electrical circuit analysis.',
+      'Electrical drawing with Autodesk AutoCAD',
+      'Auto parking user manual'
+    ],
+  },
+]
+
 const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
@@ -54,6 +80,23 @@ const skills = [
   'IT technical errors solving'
 ]
 
+const educations = [
+  {
+    name: 'King Mongkut\'s Institute of Technology Ladkrabang',
+    time: '2013-2017',
+    place: 'Bangkok, Thailand',
+    cert: 'Bachelor of Engineering in Electrical Engineering',
+    gpa: '3.70/4.00',
+  },
+  {
+    name: 'Mahidol Wittayanusorn School',
+    time: '2010-2013',
+    place: 'Nakhon Pathom, Thailand',
+    cert: 'Certificate of Secondary Education',
+    gpa: '3.27/4.00',
+  },
+]
+
 const contact = {
   address: 'No. 2/7, PM. Mansion, Ramkhamhaeng 52/2 alley, Ramkhamhaeng road, Hua Mak sub-district, Bang Kapi district, Bangkok, Thailand',
   phone: '+66963953845',
@@ -61,4 +104,4 @@ const contact = {
   email: 'geminids14@gmail.com',
 }
 
-export { header, about, projects, skills, contact }
+export { header, about, works, projects, skills, educations, contact }

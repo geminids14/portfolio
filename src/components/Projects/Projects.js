@@ -10,7 +10,7 @@ function Projects() {
   return (
     <section id='projects' className='section projects'>
       <h2 className='section__title'>
-        <WorkspacePremiumIcon className='scaled_icon'/>Projects</h2>
+        <WorkspacePremiumIcon className='big_icon'/>Projects</h2>
 
       <div className='projects__grid'>
         {projects.map((project) => (

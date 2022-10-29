@@ -145,9 +145,19 @@ main {
   transform: translateY(-5px);
 }
 
-.scaled_icon {
+.big_icon {
   transform: scale(1.8);
   margin-right:1em;
+}
+
+.mid_icon {
+  transform: scale(1.4);
+  margin-right:0.7em;
+}
+
+.small_icon {
+  transform: scale(1);
+  margin-right:0.4em;
 }
 
 @media (max-width: 600px) {

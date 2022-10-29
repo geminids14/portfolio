@@ -18,7 +18,7 @@ function ProjectContainer({ project }) {
   return (
     <div className='project'>
       <h3>
-        <TerminalIcon className='scaled_icon'/>{project.name}</h3>
+        <TerminalIcon className='mid_icon'/>{project.name}</h3>
         <ProjectImage image={project.image} />
 
       <p className='project__description'>{project.description}</p>

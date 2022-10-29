@@ -21,6 +21,11 @@
   transform: translateY(-7px);
 }
 
+.contact_container__head {
+  display: flex;
+  align-items: center;
+}
+
 .contact_container__description, .contact_container__description_indent {
   margin-top: 1em;
   line-height: 1.6em;

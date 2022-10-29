@@ -2,9 +2,11 @@ import { useContext } from 'react'
 import { ThemeContext } from './contexts/theme'
 import Header from './components/Header/Header'
 import About from './components/About/About'
+import Works from './components/Works/Works'
 import Projects from './components/Projects/Projects'
 import Skills from './components/Skills/Skills'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
+import Educations from './components/Educations/Educations'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import './App.css'
@@ -18,8 +20,10 @@ function App() {
 
       <main>
         <About />
+        <Works />
         <Projects />
         <Skills />
+        <Educations />
         <Contact />
       </main>
 

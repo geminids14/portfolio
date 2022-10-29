@@ -11,20 +11,20 @@ function Contact() {
   return (
     <section className='section contact center' id='contact'>
       <h2 className='section__title'>
-        <AccountCircleIcon className='scaled_icon'/>
+        <AccountCircleIcon className='big_icon'/>
         Contact</h2>
       <div className='contact_container'>
-        <h3><HomeIcon className='scaled_icon'/>
+        <h3 className='contact_container__head'><HomeIcon className='mid_icon'/>
         Address</h3>
         <p className='contact_container__description_indent'>{contact.address}</p>
       </div>
       <div className='contact_container'>
-        <h3><PhoneIcon className='scaled_icon'/>
+        <h3 className='contact_container__head'><PhoneIcon className='mid_icon'/>
         Phone Number</h3>
         <p className='contact_container__description'>{contact.phone}</p>
       </div>
       <div className='contact_container_last'>
-        <h3><ContactMailIcon className='scaled_icon'/>
+        <h3 className='contact_container__head'><ContactMailIcon className='mid_icon'/>
         E-Mail</h3>
         <p className='contact_container__description'>{contact.email}</p>
       </div>

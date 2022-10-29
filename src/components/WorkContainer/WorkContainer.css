@@ -1,0 +1,39 @@
+.work {
+  max-width: 500px;
+  padding: 2em;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s linear;
+}
+
+.work:hover {
+  transform: translateY(-7px);
+}
+
+.work__role {
+  display: flex;
+  align-items: center;
+  text-align: start;
+  line-height: 1.6em;
+  margin-bottom: 1em;
+}
+
+.work__time {
+  display: flex;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.work__description {
+  margin-top: 1em;
+  line-height: 1.6em;
+  text-align: start;
+}
+
+.work__description-item {
+  margin: 0.5em;
+  list-style-type: disc;
+  font-weight: 500;
+  color: var(--clr-fg-alt);
+}

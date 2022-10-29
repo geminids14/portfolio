@@ -9,7 +9,7 @@ function Skills() {
   return (
     <section className='section skills' id='skills'>
       <h2 className='section__title'>
-        <HandymanIcon className='scaled_icon'/>Skills</h2>
+        <HandymanIcon className='big_icon'/>Skills</h2>
       <ul className='skills__list'>
         {skills.map((skill) => (
           <li key={uniqid()} className='skills__list-item btn btn--plain'>
