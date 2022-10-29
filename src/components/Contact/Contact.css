@@ -1,0 +1,31 @@
+.contact {
+  flex-direction: column;
+}
+
+.contact_container,.contact_container_last {
+  max-width: 500px;
+  min-width: 500px;
+  word-wrap: normal;
+  padding: 2em;
+  margin: 0 auto 1em;
+  text-align: start;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s linear;
+}
+
+.contact_container_last {
+  margin: 0 auto 2em;
+}
+
+.contact_container:hover,.contact_container_last:hover {
+  transform: translateY(-7px);
+}
+
+.contact_container__description, .contact_container__description_indent {
+  margin-top: 1em;
+  line-height: 1.6em;
+}
+
+.contact_container__description_indent {
+  text-indent: 1.2em;
+}
