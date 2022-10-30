@@ -1,5 +1,4 @@
 import GitHubIcon from '@mui/icons-material/GitHub'
-import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import {Box} from "@mui/material";
 import Me from '../../assets/me.jpg';
 import { about } from '../../portfolio'
@@ -24,7 +23,9 @@ function About() {
 
       <div className='about__contact center'>
         {resume && (
-          <a href={resume}>
+          <a href={resume}
+            target="_blank"
+            rel="noopener noreferrer">
             <span type='button' className='btn btn--outline'>
               Resume
             </span>
@@ -36,6 +37,8 @@ function About() {
             {social.github && (
               <a
                 href={social.github}
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label='github'
                 className='link link--icon'
               >
@@ -43,13 +46,20 @@ function About() {
               </a>
             )}
 
-            {social.linkedin && (
+            {social.line && (
               <a
-                href={social.linkedin}
-                aria-label='linkedin'
+                href={social.line}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label='line'
                 className='link link--icon'
               >
-                <LinkedInIcon />
+                <img
+                onError = {e => {e.target.style.display = 'none'}}
+                src = {social.lineLogo}
+                width = '25'
+                height = '25'
+                alt='line logo'/>
               </a>
             )}
           </>

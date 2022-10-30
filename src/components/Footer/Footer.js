@@ -5,6 +5,8 @@ function Footer() {
     <footer className='footer'>
       <a
         href='https://github.com/geminids14/portfolio'
+        target="_blank"
+        rel="noopener noreferrer"
         className='link footer__link'
       >
         Created By Suriya Kuernkuob

@@ -11,13 +11,13 @@ function ProjectImage({ image }) {
     src = {image}
     width = '200'
     height = '200'
-    alt='Empty'/>;
+    alt='projectPicture'/>;
 }
 
 function ProjectContainer({ project }) {
   return (
     <div className='project'>
-      <h3>
+      <h3 className='project__head'>
         <TerminalIcon className='mid_icon'/>{project.name}</h3>
         <ProjectImage image={project.image} />
 

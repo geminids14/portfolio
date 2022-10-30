@@ -24,6 +24,7 @@
 .contact_container__head {
   display: flex;
   align-items: center;
+  align-content: center;
 }
 
 .contact_container__description, .contact_container__description_indent {

@@ -11,6 +11,12 @@
   transform: translateY(-7px);
 }
 
+.project__head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .project__description {
   margin-top: 1em;
   text-indent: 1.2em;
