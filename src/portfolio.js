@@ -13,7 +13,7 @@ const about = {
   role: 'electronic software engineer',
   description:
     'Since I was a child, technology has seemed miraculous to me. So I was very determined to study science and math. Until I studied the programming, I felt astonished. It breaks the limits of human memory, accuracy, and computation. It makes everything easier just by putting ideas into it.',
-  resume: 'https://github.com/geminids14/portfolio/src/assets/Resume.pdf',
+  resume: 'https://github.com/geminids14/portfolio/blob/master/src/assets/Resume.pdf',
   social: {
     github: 'https://github.com/geminids14',
     line: 'https://line.me/ti/p/qvQ3zsvsQK',
