@@ -23,9 +23,17 @@ const about = {
 
 const works = [
   {
+    role: 'Backend Developer',
+    time: 'January 2023-Present',
+    place: 'Baania (Thailand) Co.Ltd.',
+    descriptions: [
+      'Design, implementation and maintaining backend systems',
+    ],
+  },
+  {
     role: 'Electronic Software Engineer',
-    time: 'June 2017-Present',
-    place: 'Mitsubishi Electric Automation (Thailand) Co.Ltd',
+    time: 'June 2017-December 2022',
+    place: 'Mitsubishi Electric Automation (Thailand) Co.Ltd.',
     descriptions: [
       'Design, implementation and maintaining C code for microcontroller',
       'C# for Windows apps, Java&Kotlin for Android Apps.',
@@ -36,7 +44,7 @@ const works = [
   {
     role: 'Electrical Engineer Trainee',
     time: 'June 2016 - July 2016',
-    place: 'MP-MEC Co, Ltd., Bangkok, Thailand',
+    place: 'MP-MEC Co, Ltd.',
     descriptions: [
       'Auto parking maintenance',
       'Electrical wiring. Hardware testing.',
